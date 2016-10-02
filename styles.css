@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  background: #ddd;
+}
+
+.heading{
+  font-family: 'sue ellen francisco', cursive;
+  font-size: 4em;
+  color: #428BCA;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px #777;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.quotebox {
+  margin: 0 auto 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px;
+  padding: 20px;
+  font-size: 1.2em;
+  font-family: arial;
+  color: #555;
+  min-height: 150px;
+}
+
+.quotebox p{
+  text-align: left;
+}
+
+.quotebox p:last-child {
+  text-align: right;
+}
+
+.buttons-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.buttons-list li {
+  list-style-type: none;
+  flex-basis: 33%;
+  width: 150px;
+}
+
+button {
+    background: #428BCA;
+    color: #fff;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+  background: #3071A9
+}
